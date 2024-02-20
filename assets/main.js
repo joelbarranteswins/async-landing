@@ -1,4 +1,4 @@
-const url = 'https://youtube-v31.p.rapidapi.com/search?channelId=&part=snippet%2Cid&order=date&maxResults=9';
+const url = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCw05fUBPwmpu-ehXFMqfdMw&part=snippet%2Cid&order=date&maxResults=9';
 
 const content = null || document.getElementById('content');
 
@@ -39,6 +39,7 @@ async function fetchData(urlApi) {
               ${video.snippet.title}
             </h3>
           </div>
+        </div>
         `).slice(0, 4).join('')}
         `;
 
