@@ -39,6 +39,7 @@ async function fetchData(urlApi) {
               ${video.snippet.title}
             </h3>
           </div>
+        </div>
         `).slice(0, 4).join('')}
         `;
 
